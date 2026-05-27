@@ -54,10 +54,417 @@
 				(justify left top)
 			)
 		)
+		(pin "RX4 (GPS)" input
+			(at 177.8 105.41 0)
+			(uuid "16704f83-15f3-49b9-bae0-651e25d7c71c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RX5 (TEL)" input
+			(at 177.8 59.69 0)
+			(uuid "18d25f97-1ae5-4ccf-940b-132908167834")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI3_MISO (Blackbox)" input
+			(at 127 46.99 180)
+			(uuid "1b014a23-ea71-4a16-a22b-55c753de3aa4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TX4 (GPS)" output
+			(at 177.8 107.95 0)
+			(uuid "ae170422-40d3-4638-bf7f-3a8b2600debc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TX2 (VTX)" output
+			(at 177.8 113.03 0)
+			(uuid "344877b4-7d0b-4158-8675-167e85709b71")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CC" output
+			(at 177.8 67.31 0)
+			(uuid "4e6d2903-f50c-4ea2-80af-4431095d0427")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Buzzer" output
+			(at 177.8 71.12 0)
+			(uuid "df8f43e9-385e-479a-9597-fd30bde3e02e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C4_SCL (BARO)" bidirectional
+			(at 127 57.15 180)
+			(uuid "9f1e9676-582e-4fd0-8e52-605c3117c4c2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C4_SDA (BARO)" bidirectional
+			(at 127 59.69 180)
+			(uuid "3bb71548-34a1-4cc5-b463-9a446ec66a95")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ADC_CURR" input
+			(at 177.8 55.88 0)
+			(uuid "5185a4dd-c338-4958-92a6-8216de9b8d74")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AUX" bidirectional
+			(at 177.8 92.71 0)
+			(uuid "3268b585-74e9-4705-bc3a-6f27e193d793")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C3_SDA" bidirectional
+			(at 177.8 80.01 0)
+			(uuid "7403c894-3151-4957-9f07-8ff70a075081")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C3_SCL" bidirectional
+			(at 177.8 82.55 0)
+			(uuid "ea9ac15b-fcd3-4d1d-b67f-87b8093972a9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RX2 (VTX)" input
+			(at 177.8 115.57 0)
+			(uuid "d28be2b0-862c-4599-abe0-0c6003b2775b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "M1" output
+			(at 177.8 44.45 0)
+			(uuid "87832667-a8a3-4140-841c-99f37aa0c21d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TX1" output
+			(at 177.8 86.36 0)
+			(uuid "b3d983f5-3efe-4d00-a129-b0234f00c52a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RX1" input
+			(at 177.8 88.9 0)
+			(uuid "dc40c7e1-a810-46d9-b5a8-95f2a6edef7b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RX3 (ELRS)" input
+			(at 177.8 97.79 0)
+			(uuid "aed9071b-f06f-45c5-89e4-3d372a1296f2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TX3 (ELRS)" output
+			(at 177.8 100.33 0)
+			(uuid "e0fac4bd-3056-43ca-9c40-64811b531f9e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TX5 (TEL)" output
+			(at 177.8 62.23 0)
+			(uuid "32a5adde-af25-45fd-b553-44dd056a3034")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "M2" output
+			(at 177.8 46.99 0)
+			(uuid "f2be0d22-5026-465a-b481-87aaa752dab0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "M4" output
+			(at 177.8 52.07 0)
+			(uuid "16eb72d5-e669-41fe-a6b3-b229e1819ee8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "M3" output
+			(at 177.8 49.53 0)
+			(uuid "29d232f6-58b2-49ff-a796-35633ed9c058")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI3_MOSI (Blackbox)" output
+			(at 127 49.53 180)
+			(uuid "3f8b7809-e160-4ed2-ad89-99f9c45cee28")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI2_CS (IMU)" output
+			(at 127 64.77 180)
+			(uuid "e5da0750-90fb-46ef-bc6b-8cf50d2d9b76")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI2_MISO (IMU)" input
+			(at 127 67.31 180)
+			(uuid "9801858a-1689-4278-ae5e-18e9f24dc51a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IMU_IRQ" input
+			(at 127 69.85 180)
+			(uuid "f6610e02-04f9-4017-94eb-617ef83bbe05")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LED" output
+			(at 177.8 74.93 0)
+			(uuid "9e1a191f-2e4a-43a6-bcb9-0ad8939e776c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI2_SCK (IMU)" bidirectional
+			(at 127 72.39 180)
+			(uuid "15dfbbb0-f6f8-40e9-8c07-98fdbb8b2ccb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI2_MOSI (IMU)" output
+			(at 127 74.93 180)
+			(uuid "5b7395e7-ab20-49e0-a7f1-3971a0a373ad")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI1_CS (OSD)" output
+			(at 127 80.01 180)
+			(uuid "69d84f84-4a22-4a8d-90ed-7b5659d62aa1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI1_MISO (OSD)" input
+			(at 127 82.55 180)
+			(uuid "9504f4bf-223e-43ea-9b82-f701b3bc9b84")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI1_MOSI (OSD)" output
+			(at 127 85.09 180)
+			(uuid "8269d676-ccaa-409d-b626-37b3ef8e066f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI1_SCK (OSD)" bidirectional
+			(at 127 87.63 180)
+			(uuid "ad28c661-6ae8-4f22-8fcb-3241a28fa5fc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI3_SCK (Blackbox)" bidirectional
+			(at 127 52.07 180)
+			(uuid "e800ef5e-3d97-4235-93c2-76191a57caf5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI3_CS (Blackbox)" output
+			(at 127 44.45 180)
+			(uuid "2aaa894e-a3c4-45da-8b6c-455b9cb74d3a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "smol-FC-G474-REV-A"
 				(path "/650874a8-efa2-4da6-bfd2-a5dde0a9b2ac"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 52.07 39.37)
+		(size 36.83 87.63)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(color 255 229 191 1)
+		)
+		(uuid "c6a9e88e-4750-4739-9bd4-754778ae0745")
+		(property "Sheetname" "Sensors & IC's"
+			(at 52.07 38.6584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sens%IC.kicad_sch"
+			(at 52.07 127.5846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "smol-FC-G474-REV-A"
+				(path "/650874a8-efa2-4da6-bfd2-a5dde0a9b2ac"
+					(page "3")
 				)
 			)
 		)

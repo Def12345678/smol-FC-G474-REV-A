@@ -1,0 +1,18 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "3d3a3160-8fc4-4bd0-b5df-81769183fd6f")
+	(paper "A4")
+	(title_block
+		(title "smol-FC-G474")
+		(date "2026-05-24")
+		(rev "0.0.1")
+		(company "Daniel Plewa")
+		(comment 1 "License: CERN-OHL-W v2")
+		(comment 2 "GitHub: https://github.com/Def12345678/smol-FC-G474-REV-A")
+		(comment 3 "BEC 5A/2A, 10V/2A | Baro, OSD Chip and 16MB blackbox")
+		(comment 4 "Open source flight controller on STM32G4, 20x20 3.5mm hole")
+	)
+	(lib_symbols)
+)

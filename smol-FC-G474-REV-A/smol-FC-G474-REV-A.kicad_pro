@@ -399,7 +399,7 @@
     "annotate_start_num": 0,
     "annotation": {
       "method": 0,
-      "sort_order": 0
+      "sort_order": 1
     },
     "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
@@ -525,7 +525,7 @@
         "uuid": "650874a8-efa2-4da6-bfd2-a5dde0a9b2ac"
       }
     ],
-    "used_designators": "#PWR1,#PWR4-11,Y1,C9,C11,R1-4,J1,U2",
+    "used_designators": "#PWR1-23,D1-5,J1,R1-12,C1-14,U1-2,Y1,SW1,SWCLK1,TP1,PAD18,3V3_CORE1,SWDIO1,NRST1",
     "variants": []
   },
   "sheets": [
@@ -536,6 +536,10 @@
     [
       "1fef05e5-4b48-4307-88a4-eb5e10ad1d18",
       "MCU"
+    ],
+    [
+      "c6a9e88e-4750-4739-9bd4-754778ae0745",
+      "Sensors & IC's"
     ]
   ],
   "text_variables": {},

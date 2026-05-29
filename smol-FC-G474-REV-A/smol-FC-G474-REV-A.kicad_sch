@@ -15,6 +15,166 @@
 		(comment 4 "Open source flight controller on STM32G4, 20x20 3.5mm hole")
 	)
 	(lib_symbols)
+	(text "Trzeba przewidziec ze pod zlacze GPS mozna podlaczyc takze np RUNCAM thumb 2 czy inna kamere action bo potrzebuje to 5V"
+		(exclude_from_sim no)
+		(at 92.456 166.624 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d8795daa-4872-4fe6-8201-7795e5717d5e")
+	)
+	(wire
+		(pts
+			(xy 88.9 87.63) (xy 127 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "009d5e62-ca06-4c15-8baf-6d255202a1a1")
+	)
+	(wire
+		(pts
+			(xy 88.9 44.45) (xy 127 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01afac3b-7d08-46c0-9f40-f9adffc1b8b1")
+	)
+	(wire
+		(pts
+			(xy 88.9 52.07) (xy 127 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01c57ccd-f059-49c6-b06e-2f5d4ebd8479")
+	)
+	(wire
+		(pts
+			(xy 88.9 82.55) (xy 127 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06aa7fc6-1963-4829-8bdf-d78f01be8d31")
+	)
+	(wire
+		(pts
+			(xy 88.9 80.01) (xy 127 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b6f06ca-8c0c-4329-9a48-9c685b6f0a25")
+	)
+	(wire
+		(pts
+			(xy 88.9 59.69) (xy 127 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c04e3ad-237d-43a5-959b-849b5925b1b7")
+	)
+	(wire
+		(pts
+			(xy 88.9 72.39) (xy 127 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21a0ccc8-5264-45c4-abc7-a055ac77b486")
+	)
+	(wire
+		(pts
+			(xy 88.9 74.93) (xy 127 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e060d82-687a-4837-9ed2-3f044a95fefa")
+	)
+	(wire
+		(pts
+			(xy 88.9 49.53) (xy 127 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7aad7156-0b8d-4c6c-8dd5-7f4fe2ca5227")
+	)
+	(wire
+		(pts
+			(xy 88.9 64.77) (xy 127 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "929acf20-acaa-4f96-96c7-e7d6fcb0c39b")
+	)
+	(wire
+		(pts
+			(xy 88.9 69.85) (xy 127 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "987c7855-33dc-4173-8da3-654b5da1c6f1")
+	)
+	(wire
+		(pts
+			(xy 88.9 57.15) (xy 127 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8c2ad9f-c774-4722-b556-ed2caf58b89e")
+	)
+	(wire
+		(pts
+			(xy 88.9 85.09) (xy 127 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfb0de5c-cf4f-408f-895f-ecf640f5ac5f")
+	)
+	(wire
+		(pts
+			(xy 88.9 46.99) (xy 127 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eeb81985-aa9e-4f00-8b9d-3be5f1adaba9")
+	)
+	(wire
+		(pts
+			(xy 88.9 67.31) (xy 127 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fab8ff98-1895-41c8-b2ee-7e9be742f40a")
+	)
 	(sheet
 		(at 127 40.64)
 		(size 50.8 86.36)
@@ -315,7 +475,7 @@
 			)
 		)
 		(pin "IMU_IRQ" input
-			(at 127 69.85 180)
+			(at 127 74.93 180)
 			(uuid "f6610e02-04f9-4017-94eb-617ef83bbe05")
 			(effects
 				(font
@@ -345,7 +505,7 @@
 			)
 		)
 		(pin "SPI2_MOSI (IMU)" output
-			(at 127 74.93 180)
+			(at 127 69.85 180)
 			(uuid "5b7395e7-ab20-49e0-a7f1-3971a0a373ad")
 			(effects
 				(font
@@ -459,6 +619,176 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "VIDEO_IN" input
+			(at 88.9 95.25 0)
+			(uuid "ed73e182-6403-472e-9f58-1741cab7c1ff")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI3_SCK" bidirectional
+			(at 88.9 52.07 0)
+			(uuid "f88fcaea-4324-4c48-844a-d205ac88e244")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI1_SCK" bidirectional
+			(at 88.9 87.63 0)
+			(uuid "34d78088-ae4d-4f08-a363-c1de118abf27")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C4_SCL" bidirectional
+			(at 88.9 57.15 0)
+			(uuid "ae9ed62c-b7a2-41dd-9cfa-dd670d853cf8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C4_SDA" bidirectional
+			(at 88.9 59.69 0)
+			(uuid "fb797c1c-7649-4168-b412-e41aaa7bb5ae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI2_CS" input
+			(at 88.9 64.77 0)
+			(uuid "cb4592b1-b824-42b1-8967-5f5d03e0bdd1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI2_SCK" bidirectional
+			(at 88.9 72.39 0)
+			(uuid "8b057fa9-6aa1-4755-8b5a-65ca1cf8dc48")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI2_MISO" output
+			(at 88.9 67.31 0)
+			(uuid "dc292206-17a9-4ebe-80db-140e8d6cbe74")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI3_MOSI" input
+			(at 88.9 49.53 0)
+			(uuid "9221f294-6cb0-4f29-9fb2-4bb90139c66b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IMU_IRQ" output
+			(at 88.9 74.93 0)
+			(uuid "03a0966b-94ac-4aae-8cbd-e8e073630f08")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI2_MOSI" input
+			(at 88.9 69.85 0)
+			(uuid "2322395a-3a26-4f2f-939e-e6765fbbc408")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI3_MISO" output
+			(at 88.9 46.99 0)
+			(uuid "528d6536-57b1-4eec-8e12-540530e32008")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI1_MOSI" input
+			(at 88.9 85.09 0)
+			(uuid "9d10a7db-0f03-481c-a406-259f11a2b890")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI1_MISO" output
+			(at 88.9 82.55 0)
+			(uuid "e4c43fe3-8f0e-4795-9769-8053ed241d30")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VIDEO_OUT" output
+			(at 88.9 92.71 0)
+			(uuid "84930954-79d3-47c0-9fc9-86a8335e29c3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI1_CS" input
+			(at 88.9 80.01 0)
+			(uuid "c43d2e52-494d-422e-8bc0-6899bd1a4bbe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI3_CS" input
+			(at 88.9 44.45 0)
+			(uuid "899e1b02-89a4-4eba-a092-d9248051e897")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

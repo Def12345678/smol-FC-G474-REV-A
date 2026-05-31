@@ -8,7 +8,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "0.0.1"
+      "sch_revision": "0.7.0"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -282,9 +282,10 @@
       },
       {
         "bus_width": 12,
+        "line_style": 0,
         "name": "+10V",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 2,
         "schematic_color": "rgb(194, 0, 0)",
         "tuning_profile": "",
         "wire_width": 6
@@ -294,7 +295,7 @@
         "line_style": 0,
         "name": "+3V3_CORE",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
+        "priority": 6,
         "schematic_color": "rgb(255, 0, 0)",
         "tuning_profile": "",
         "wire_width": 6
@@ -304,17 +305,38 @@
         "line_style": 0,
         "name": "+3V3_SENS",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 5,
         "schematic_color": "rgb(255, 0, 0)",
         "tuning_profile": "",
         "wire_width": 6
       },
       {
         "bus_width": 12,
+        "line_style": 0,
         "name": "+5V",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 3,
         "schematic_color": "rgb(194, 0, 0)",
+        "tuning_profile": "",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "+5V_BEC",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgb(255, 0, 0)",
+        "tuning_profile": "",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "+5V_SYS",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(255, 0, 0)",
         "tuning_profile": "",
         "wire_width": 6
       },
@@ -323,7 +345,7 @@
         "line_style": 0,
         "name": "+VBAT",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
+        "priority": 7,
         "schematic_color": "rgb(255, 0, 0)",
         "tuning_profile": "",
         "wire_width": 6
@@ -333,7 +355,7 @@
         "line_style": 0,
         "name": "+VBUS",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 4,
         "schematic_color": "rgb(255, 0, 0)",
         "tuning_profile": "",
         "wire_width": 6
@@ -343,7 +365,7 @@
         "line_style": 0,
         "name": "GND",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 6,
+        "priority": 8,
         "schematic_color": "rgb(0, 0, 0)",
         "tuning_profile": "",
         "wire_width": 6
@@ -382,6 +404,14 @@
       {
         "netclass": "+VBAT",
         "pattern": "+VBAT"
+      },
+      {
+        "netclass": "+5V_BEC",
+        "pattern": "+5V_BEC"
+      },
+      {
+        "netclass": "+5V_SYS",
+        "pattern": "+5V_SYS"
       }
     ]
   },
@@ -525,7 +555,7 @@
         "uuid": "650874a8-efa2-4da6-bfd2-a5dde0a9b2ac"
       }
     ],
-    "used_designators": "Y2,C19-28,#PWR27-40,R14-17,U4-6",
+    "used_designators": "GND1-13,Q1,Buzzer1,VIDEO_OUT1,#PWR1-76,C1-29,5V1-6,J1-7,I2C3_SCL1,R1-21,3V3_CORE1,AUX1-2,RX1-4,10V1-3,TX1-4,BZ+1,BZ\\-1,CC1,D1-5,I2C3_SDA1,LED1,NRST1,SW1,SWCLK1,SWDIO1,U1-6,Y1-2",
     "variants": []
   },
   "sheets": [
@@ -540,6 +570,14 @@
     [
       "c6a9e88e-4750-4739-9bd4-754778ae0745",
       "Sensors & IC's"
+    ],
+    [
+      "2ae5d19c-c4f8-463c-a9e0-b776209965fe",
+      "Connectors"
+    ],
+    [
+      "7761e483-d194-459b-bdd0-747811d22898",
+      "power_supply"
     ]
   ],
   "text_variables": {},

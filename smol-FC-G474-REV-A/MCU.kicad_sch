@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "smol-FC-G474")
-		(date "2026-05-24")
-		(rev "0.0.1")
+		(date "2026-05-31")
+		(rev "0.7.0")
 		(company "Daniel Plewa")
 		(comment 1 "License: CERN-OHL-W v2")
 		(comment 2 "GitHub: https://github.com/Def12345678/smol-FC-G474-REV-A")
@@ -5296,6 +5296,10 @@
 		(at 127 151.13)
 		(uuid "cf75db3a-9fcc-4130-aeb5-f5f401887c57")
 	)
+	(no_connect
+		(at 175.26 113.03)
+		(uuid "e0496927-ba46-4a61-b71c-869d4254b8ff")
+	)
 	(wire
 		(pts
 			(xy 88.9 83.82) (xy 88.9 90.17)
@@ -7946,17 +7950,6 @@
 			(justify left)
 		)
 		(uuid "c45e18de-b0fa-42d4-91f7-fb58a638aa15")
-	)
-	(hierarchical_label "TX5 (TEL)"
-		(shape output)
-		(at 175.26 113.03 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cb3ab70f-5c91-43cf-9f11-18248273912e")
 	)
 	(hierarchical_label "SPI1_CS (OSD)"
 		(shape output)

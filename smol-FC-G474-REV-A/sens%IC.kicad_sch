@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "smol-FC-G474")
-		(date "2026-05-24")
-		(rev "0.0.1")
+		(date "2026-05-31")
+		(rev "0.7.0")
 		(company "Daniel Plewa")
 		(comment 1 "License: CERN-OHL-W v2")
 		(comment 2 "GitHub: https://github.com/Def12345678/smol-FC-G474-REV-A")
@@ -7192,7 +7192,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "4.7K"
 			(at 92.456 145.542 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7775,7 +7775,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "4.7K"
 			(at 100.076 145.542 0)
 			(show_name no)
 			(do_not_autoplace no)

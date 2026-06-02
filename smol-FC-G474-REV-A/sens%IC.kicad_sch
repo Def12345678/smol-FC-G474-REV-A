@@ -5137,7 +5137,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DPS368XTSA1:XDCR_DPS368XTSA1"
+		(property "Footprint" ""
 			(at 69.088 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -5438,7 +5438,7 @@
 				)
 			)
 		)
-		(property "Footprint" "W25Q128JVSIQ:SOIC127P790X216-8N"
+		(property "Footprint" ""
 			(at 241.046 78.232 0)
 			(hide yes)
 			(show_name no)
@@ -5670,7 +5670,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ICM-42688-P:PQFN50P300X250X97-14N"
+		(property "Footprint" ""
 			(at 228.092 12.954 0)
 			(hide yes)
 			(show_name no)
@@ -6628,7 +6628,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MAX7456EUI_:SOP65P637X110-28N"
+		(property "Footprint" ""
 			(at 80.772 40.132 0)
 			(hide yes)
 			(show_name no)

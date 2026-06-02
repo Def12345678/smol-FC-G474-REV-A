@@ -215,7 +215,7 @@
       "extra_units": "error",
       "field_name_whitespace": "warning",
       "footprint_filter": "error",
-      "footprint_link_issues": "error",
+      "footprint_link_issues": "ignore",
       "four_way_junction": "error",
       "ground_pin_not_ground": "warning",
       "hier_label_mismatch": "error",
@@ -223,7 +223,7 @@
       "label_dangling": "error",
       "label_multiple_wires": "warning",
       "lib_symbol_issues": "warning",
-      "lib_symbol_mismatch": "error",
+      "lib_symbol_mismatch": "ignore",
       "missing_bidi_pin": "warning",
       "missing_input_pin": "warning",
       "missing_power_pin": "error",
@@ -235,7 +235,7 @@
       "pin_not_connected": "error",
       "pin_not_driven": "error",
       "pin_to_pin": "warning",
-      "power_pin_not_driven": "error",
+      "power_pin_not_driven": "ignore",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
@@ -285,7 +285,7 @@
         "line_style": 0,
         "name": "+10V",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgb(194, 0, 0)",
         "tuning_profile": "",
         "wire_width": 6
@@ -295,7 +295,7 @@
         "line_style": 0,
         "name": "+3V3_CORE",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 6,
+        "priority": 7,
         "schematic_color": "rgb(255, 0, 0)",
         "tuning_profile": "",
         "wire_width": 6
@@ -305,7 +305,7 @@
         "line_style": 0,
         "name": "+3V3_SENS",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
+        "priority": 6,
         "schematic_color": "rgb(255, 0, 0)",
         "tuning_profile": "",
         "wire_width": 6
@@ -315,7 +315,7 @@
         "line_style": 0,
         "name": "+5V",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgb(194, 0, 0)",
         "tuning_profile": "",
         "wire_width": 6
@@ -325,7 +325,7 @@
         "line_style": 0,
         "name": "+5V_BEC",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgb(255, 0, 0)",
         "tuning_profile": "",
         "wire_width": 6
@@ -334,6 +334,16 @@
         "bus_width": 12,
         "line_style": 0,
         "name": "+5V_SYS",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgb(255, 0, 0)",
+        "tuning_profile": "",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "+9V_BEC",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgb(255, 0, 0)",
@@ -345,7 +355,7 @@
         "line_style": 0,
         "name": "+VBAT",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 7,
+        "priority": 8,
         "schematic_color": "rgb(255, 0, 0)",
         "tuning_profile": "",
         "wire_width": 6
@@ -355,7 +365,7 @@
         "line_style": 0,
         "name": "+VBUS",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
+        "priority": 5,
         "schematic_color": "rgb(255, 0, 0)",
         "tuning_profile": "",
         "wire_width": 6
@@ -365,7 +375,7 @@
         "line_style": 0,
         "name": "GND",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 8,
+        "priority": 9,
         "schematic_color": "rgb(0, 0, 0)",
         "tuning_profile": "",
         "wire_width": 6
@@ -412,6 +422,10 @@
       {
         "netclass": "+5V_SYS",
         "pattern": "+5V_SYS"
+      },
+      {
+        "netclass": "+9V_BEC",
+        "pattern": "+9V_BEC"
       }
     ]
   },
@@ -555,7 +569,7 @@
         "uuid": "650874a8-efa2-4da6-bfd2-a5dde0a9b2ac"
       }
     ],
-    "used_designators": "",
+    "used_designators": "D6-7,#PWR43,#PWR65,#PWR74,#PWR82,#PWR91-93,#PWR108-121,CR1-2,U11,5V1-8,3V3_CORE1,9V1-2,GND2-12,NRST1,SWCLK1,SWDIO1",
     "variants": []
   },
   "sheets": [

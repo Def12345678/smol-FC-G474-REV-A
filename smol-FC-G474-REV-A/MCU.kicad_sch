@@ -7400,7 +7400,7 @@
 		)
 		(uuid "06cf7b63-98b4-472b-9664-7ef75417d7bd")
 	)
-	(label "USB_DP"
+	(label "USB_D_P"
 		(at 60.96 134.62 0)
 		(effects
 			(font
@@ -7410,7 +7410,7 @@
 		)
 		(uuid "0acf383c-2914-48cb-ad74-07774250d55a")
 	)
-	(label "MCU_USB_DP"
+	(label "MCU_USB_D_P"
 		(at 107.95 134.62 0)
 		(effects
 			(font
@@ -7460,7 +7460,7 @@
 		)
 		(uuid "3a025017-77b4-4313-97be-21d369388fa1")
 	)
-	(label "MCU_USB_DN"
+	(label "MCU_USB_D_N"
 		(at 107.95 132.08 0)
 		(effects
 			(font
@@ -7490,7 +7490,7 @@
 		)
 		(uuid "537d9fb2-17d9-4183-829f-7665aa9c2757")
 	)
-	(label "USB_DN"
+	(label "USB_D_N"
 		(at 60.96 132.08 0)
 		(effects
 			(font
@@ -9134,7 +9134,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ESDALC6V1-1U2:DIODE_ESDALC6V1-1U2"
+		(property "Footprint" ""
 			(at 245.11 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -9981,7 +9981,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-666"
+		(property "Footprint" ""
 			(at 77.216 138.811 0)
 			(hide yes)
 			(show_name no)
@@ -10230,7 +10230,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TYPE-C_16PIN_2MD__073_:SHOUHAN_TYPE-C_16PIN_2MD__073_"
+		(property "Footprint" ""
 			(at 42.926 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -10604,7 +10604,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_QFP:LQFP-64_10x10mm_P0.5mm"
+		(property "Footprint" ""
 			(at 135.89 158.75 0)
 			(hide yes)
 			(show_name no)

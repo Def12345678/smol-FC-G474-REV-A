@@ -2570,7 +2570,7 @@
 	)
 	(text "Power\n"
 		(exclude_from_sim no)
-		(at 107.442 149.86 0)
+		(at 165.608 149.606 0)
 		(effects
 			(font
 				(size 4 4)
@@ -6673,7 +6673,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "53dfd4ee-d392-42cb-8297-f64b9f9e21d2")
-		(property "Reference" "VIDEO_OUT"
+		(property "Reference" "VIDEO_OUT1"
 			(at 252.476 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6735,7 +6735,7 @@
 		(instances
 			(project "smol-FC-G474-REV-A"
 				(path "/650874a8-efa2-4da6-bfd2-a5dde0a9b2ac/2ae5d19c-c4f8-463c-a9e0-b776209965fe"
-					(reference "VIDEO_OUT")
+					(reference "VIDEO_OUT1")
 					(unit 1)
 				)
 			)
@@ -6752,7 +6752,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "57e3a231-e085-44f9-b4b0-b42811ff1068")
-		(property "Reference" "10V"
+		(property "Reference" "10V3"
 			(at 248.412 130.556 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6814,7 +6814,7 @@
 		(instances
 			(project "smol-FC-G474-REV-A"
 				(path "/650874a8-efa2-4da6-bfd2-a5dde0a9b2ac/2ae5d19c-c4f8-463c-a9e0-b776209965fe"
-					(reference "10V")
+					(reference "10V3")
 					(unit 1)
 				)
 			)
@@ -7372,7 +7372,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6fd89cca-dcbd-410e-a77c-a549cc4e366e")
-		(property "Reference" "I2C3_SCL"
+		(property "Reference" "I2C3_SCL1"
 			(at 140.462 126.746 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7434,7 +7434,7 @@
 		(instances
 			(project "smol-FC-G474-REV-A"
 				(path "/650874a8-efa2-4da6-bfd2-a5dde0a9b2ac/2ae5d19c-c4f8-463c-a9e0-b776209965fe"
-					(reference "I2C3_SCL")
+					(reference "I2C3_SCL1")
 					(unit 1)
 				)
 			)
@@ -8543,7 +8543,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9b2f7876-9534-4e29-8b40-470eb12cd85e")
-		(property "Reference" "AUX"
+		(property "Reference" "AUX2"
 			(at 249.936 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8605,7 +8605,7 @@
 		(instances
 			(project "smol-FC-G474-REV-A"
 				(path "/650874a8-efa2-4da6-bfd2-a5dde0a9b2ac/2ae5d19c-c4f8-463c-a9e0-b776209965fe"
-					(reference "AUX")
+					(reference "AUX2")
 					(unit 1)
 				)
 			)
@@ -8776,7 +8776,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a857f1a3-f723-4257-b497-2a3f8726dd1b")
-		(property "Reference" "AUX1"
+		(property "Reference" "CAM1"
 			(at 256.286 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8838,7 +8838,7 @@
 		(instances
 			(project "smol-FC-G474-REV-A"
 				(path "/650874a8-efa2-4da6-bfd2-a5dde0a9b2ac/2ae5d19c-c4f8-463c-a9e0-b776209965fe"
-					(reference "AUX1")
+					(reference "CAM1")
 					(unit 1)
 				)
 			)
@@ -8932,7 +8932,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ae3ac348-18f1-49e0-abac-7b87f74f4702")
-		(property "Reference" "I2C3_SDA"
+		(property "Reference" "I2C3_SDA1"
 			(at 144.272 130.556 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8994,7 +8994,7 @@
 		(instances
 			(project "smol-FC-G474-REV-A"
 				(path "/650874a8-efa2-4da6-bfd2-a5dde0a9b2ac/2ae5d19c-c4f8-463c-a9e0-b776209965fe"
-					(reference "I2C3_SDA")
+					(reference "I2C3_SDA1")
 					(unit 1)
 				)
 			)
@@ -9599,7 +9599,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c62c8506-c211-4366-a0f5-60e50bd7d804")
-		(property "Reference" "5V"
+		(property "Reference" "5V6"
 			(at 35.052 164.846 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9661,7 +9661,7 @@
 		(instances
 			(project "smol-FC-G474-REV-A"
 				(path "/650874a8-efa2-4da6-bfd2-a5dde0a9b2ac/2ae5d19c-c4f8-463c-a9e0-b776209965fe"
-					(reference "5V")
+					(reference "5V6")
 					(unit 1)
 				)
 			)
@@ -9913,7 +9913,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d13b0b2d-a5ee-4b47-8689-427a92c67da9")
-		(property "Reference" "LED"
+		(property "Reference" "LED1"
 			(at 38.862 168.656 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9975,7 +9975,7 @@
 		(instances
 			(project "smol-FC-G474-REV-A"
 				(path "/650874a8-efa2-4da6-bfd2-a5dde0a9b2ac/2ae5d19c-c4f8-463c-a9e0-b776209965fe"
-					(reference "LED")
+					(reference "LED1")
 					(unit 1)
 				)
 			)
@@ -10304,7 +10304,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "df89a87a-f9f2-450c-aaba-6a6f3336d53b")
-		(property "Reference" "BZ-"
+		(property "Reference" "BZ-1"
 			(at 56.642 115.316 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10366,7 +10366,7 @@
 		(instances
 			(project "smol-FC-G474-REV-A"
 				(path "/650874a8-efa2-4da6-bfd2-a5dde0a9b2ac/2ae5d19c-c4f8-463c-a9e0-b776209965fe"
-					(reference "BZ-")
+					(reference "BZ-1")
 					(unit 1)
 				)
 			)
@@ -10942,7 +10942,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f1e9d038-7bce-4d2d-b5b0-1e1c6c407376")
-		(property "Reference" "BZ+"
+		(property "Reference" "BZ+1"
 			(at 24.638 129.794 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11004,7 +11004,7 @@
 		(instances
 			(project "smol-FC-G474-REV-A"
 				(path "/650874a8-efa2-4da6-bfd2-a5dde0a9b2ac/2ae5d19c-c4f8-463c-a9e0-b776209965fe"
-					(reference "BZ+")
+					(reference "BZ+1")
 					(unit 1)
 				)
 			)
@@ -11021,7 +11021,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f355be44-4998-4cd6-a4d9-f2c4e2b11359")
-		(property "Reference" "CC"
+		(property "Reference" "CC1"
 			(at 54.102 79.756 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11083,7 +11083,7 @@
 		(instances
 			(project "smol-FC-G474-REV-A"
 				(path "/650874a8-efa2-4da6-bfd2-a5dde0a9b2ac/2ae5d19c-c4f8-463c-a9e0-b776209965fe"
-					(reference "CC")
+					(reference "CC1")
 					(unit 1)
 				)
 			)

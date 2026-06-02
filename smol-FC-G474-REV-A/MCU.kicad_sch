@@ -4853,7 +4853,7 @@
 	)
 	(text "D4 - ESDALC6V1-1U2"
 		(exclude_from_sim no)
-		(at 252.476 119.126 0)
+		(at 246.634 119.126 0)
 		(effects
 			(font
 				(size 1 1)
@@ -8954,7 +8954,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4363d4c5-37d9-4681-9d8f-1295f31c0ee3")
-		(property "Reference" "GND"
+		(property "Reference" "GND2"
 			(at 266.446 59.436 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9016,7 +9016,7 @@
 		(instances
 			(project "smol-FC-G474-REV-A"
 				(path "/650874a8-efa2-4da6-bfd2-a5dde0a9b2ac/1fef05e5-4b48-4307-88a4-eb5e10ad1d18"
-					(reference "GND")
+					(reference "GND2")
 					(unit 1)
 				)
 			)
@@ -9033,7 +9033,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4572fed3-c833-4349-bc42-cbcdf24b026a")
-		(property "Reference" "SWCLK"
+		(property "Reference" "SWCLK1"
 			(at 261.366 51.816 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9095,7 +9095,7 @@
 		(instances
 			(project "smol-FC-G474-REV-A"
 				(path "/650874a8-efa2-4da6-bfd2-a5dde0a9b2ac/1fef05e5-4b48-4307-88a4-eb5e10ad1d18"
-					(reference "SWCLK")
+					(reference "SWCLK1")
 					(unit 1)
 				)
 			)
@@ -12635,7 +12635,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e3c6f0ef-a3ef-4c36-82b1-b7ce9190fdd6")
-		(property "Reference" "3V3_CORE"
+		(property "Reference" "3V3_CORE1"
 			(at 256.286 44.196 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12697,7 +12697,7 @@
 		(instances
 			(project "smol-FC-G474-REV-A"
 				(path "/650874a8-efa2-4da6-bfd2-a5dde0a9b2ac/1fef05e5-4b48-4307-88a4-eb5e10ad1d18"
-					(reference "3V3_CORE")
+					(reference "3V3_CORE1")
 					(unit 1)
 				)
 			)
@@ -12714,7 +12714,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e4bf8146-8cde-4659-826a-d00b118be9ec")
-		(property "Reference" "NRST"
+		(property "Reference" "NRST1"
 			(at 263.906 55.626 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12776,7 +12776,7 @@
 		(instances
 			(project "smol-FC-G474-REV-A"
 				(path "/650874a8-efa2-4da6-bfd2-a5dde0a9b2ac/1fef05e5-4b48-4307-88a4-eb5e10ad1d18"
-					(reference "NRST")
+					(reference "NRST1")
 					(unit 1)
 				)
 			)
@@ -13190,7 +13190,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f567df06-9489-4d76-9d6a-2c3f53caab8d")
-		(property "Reference" "SWDIO"
+		(property "Reference" "SWDIO1"
 			(at 258.826 48.006 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13252,7 +13252,7 @@
 		(instances
 			(project "smol-FC-G474-REV-A"
 				(path "/650874a8-efa2-4da6-bfd2-a5dde0a9b2ac/1fef05e5-4b48-4307-88a4-eb5e10ad1d18"
-					(reference "SWDIO")
+					(reference "SWDIO1")
 					(unit 1)
 				)
 			)

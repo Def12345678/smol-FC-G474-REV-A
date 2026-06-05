@@ -5,13 +5,13 @@
 	(uuid "f97f4d8d-9f88-497e-82e4-a62aa94be692")
 	(paper "A4")
 	(title_block
-		(title "smol-FC-G474")
-		(date "2026-05-31")
-		(rev "0.7.0")
+		(title "smol-FC-G474-REV-A")
+		(date "2026-06-05")
+		(rev "0.9.3")
 		(company "Daniel Plewa")
 		(comment 1 "License: CERN-OHL-W v2")
 		(comment 2 "GitHub: https://github.com/Def12345678/smol-FC-G474-REV-A")
-		(comment 3 "BEC 5A/2A, 10V/2A | Baro, OSD Chip and 16MB blackbox")
+		(comment 3 "BEC 5A/3A, 10V/3A | Baro, OSD Chip and 16MB blackbox")
 		(comment 4 "Open source flight controller on STM32G4, 20x20 3.5mm hole")
 	)
 	(lib_symbols
@@ -4897,7 +4897,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TVS3300DRVR:DRV6_1X1P6_TEX"
 			(at 22.098 -9.398 0)
 			(hide yes)
 			(show_name no)
@@ -5045,7 +5045,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -5073,7 +5073,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pad-2.2x1.6:pad-2.2x1.6"
 			(at 260.35 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -5201,7 +5201,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -5229,7 +5229,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pad-2.2x1.6:pad-2.2x1.6"
 			(at 156.21 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -5384,7 +5384,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 128.27 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -5515,7 +5515,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -5543,7 +5543,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pad-2.2x1.6:pad-2.2x1.6"
 			(at 62.23 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -5621,7 +5621,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 46.99 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -5675,7 +5675,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -5703,7 +5703,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pad-2.2x1.6:pad-2.2x1.6"
 			(at 152.4 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -5831,7 +5831,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -5859,7 +5859,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pad-2.2x1.6:pad-2.2x1.6"
 			(at 264.16 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -6091,7 +6091,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_SH_SM10B-SRSS-TB_1x10-1MP_P1.00mm_Horizontal"
 			(at 76.2 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -6169,7 +6169,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -6197,7 +6197,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pad-2.2x1.6:pad-2.2x1.6"
 			(at 256.54 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -6352,7 +6352,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal"
 			(at 224.79 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -6409,7 +6409,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -6437,7 +6437,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pad-2.2x1.6:pad-2.2x1.6"
 			(at 120.65 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -6565,7 +6565,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -6593,7 +6593,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pad-2.2x1.6:pad-2.2x1.6"
 			(at 250.19 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -6644,7 +6644,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -6672,7 +6672,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pad-2.2x1.6:pad-2.2x1.6"
 			(at 163.83 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -6750,7 +6750,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal"
 			(at 124.46 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -6837,7 +6837,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_SH_SM05B-SRSS-TB_1x05-1MP_P1.00mm_Horizontal"
 			(at 229.87 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -6977,7 +6977,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -7005,7 +7005,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pad-2.2x1.6:pad-2.2x1.6"
 			(at 116.84 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -7133,7 +7133,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -7161,7 +7161,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pad-2.2x1.6:pad-2.2x1.6"
 			(at 256.54 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -7212,7 +7212,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -7240,7 +7240,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pad-2.2x1.6:pad-2.2x1.6"
 			(at 252.73 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -7522,7 +7522,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -7550,7 +7550,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pad-2.2x1.6:pad-2.2x1.6"
 			(at 82.55 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -7909,7 +7909,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -7937,7 +7937,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pad-2.2x1.6:pad-2.2x1.6"
 			(at 144.78 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -8065,7 +8065,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -8093,7 +8093,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pad-2.2x1.6:pad-2.2x1.6"
 			(at 160.02 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -8298,7 +8298,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -8326,7 +8326,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pad-2.2x1.6:pad-2.2x1.6"
 			(at 90.17 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -8404,7 +8404,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 43.18 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -8458,7 +8458,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -8486,7 +8486,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pad-2.2x1.6:pad-2.2x1.6"
 			(at 257.81 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -8614,7 +8614,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -8642,7 +8642,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pad-2.2x1.6:pad-2.2x1.6"
 			(at 138.43 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -8924,7 +8924,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -8952,7 +8952,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pad-2.2x1.6:pad-2.2x1.6"
 			(at 142.24 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -9003,7 +9003,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -9031,7 +9031,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pad-2.2x1.6:pad-2.2x1.6"
 			(at 254 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -9082,7 +9082,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -9110,7 +9110,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pad-2.2x1.6:pad-2.2x1.6"
 			(at 78.74 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -9315,7 +9315,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -9343,7 +9343,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pad-2.2x1.6:pad-2.2x1.6"
 			(at 260.35 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -9471,7 +9471,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -9499,7 +9499,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pad-2.2x1.6:pad-2.2x1.6"
 			(at 148.59 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -9550,7 +9550,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -9578,7 +9578,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pad-2.2x1.6:pad-2.2x1.6"
 			(at 267.97 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -9629,7 +9629,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -9657,7 +9657,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pad-2.2x1.6:pad-2.2x1.6"
 			(at 46.99 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -9708,7 +9708,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -9736,7 +9736,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pad-2.2x1.6:pad-2.2x1.6"
 			(at 163.83 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -9968,7 +9968,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal"
 			(at 219.71 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -10025,7 +10025,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -10053,7 +10053,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pad-2.2x1.6:pad-2.2x1.6"
 			(at 160.02 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -10131,7 +10131,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 58.42 126.365 0)
 			(hide yes)
 			(show_name no)
@@ -10213,7 +10213,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -10241,7 +10241,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pad-2.2x1.6:pad-2.2x1.6"
 			(at 151.13 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -10292,7 +10292,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -10320,7 +10320,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pad-2.2x1.6:pad-2.2x1.6"
 			(at 39.37 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -10371,7 +10371,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -10399,7 +10399,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pad-2.2x1.6:pad-2.2x1.6"
 			(at 264.16 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -10450,7 +10450,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -10478,7 +10478,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pad-2.2x1.6:pad-2.2x1.6"
 			(at 86.36 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -10529,7 +10529,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -10557,7 +10557,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pad-2.2x1.6:pad-2.2x1.6"
 			(at 43.18 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -10685,7 +10685,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -10713,7 +10713,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pad-2.2x1.6:pad-2.2x1.6"
 			(at 158.75 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -10841,7 +10841,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -10869,7 +10869,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pad-2.2x1.6:pad-2.2x1.6"
 			(at 162.56 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -10997,7 +10997,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -11025,7 +11025,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pad-2.2x1.6:pad-2.2x1.6"
 			(at 60.96 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -11103,7 +11103,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 40.64 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -11338,7 +11338,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal"
 			(at 123.19 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -11425,7 +11425,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 119.38 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -11556,7 +11556,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -11584,7 +11584,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pad-2.2x1.6:pad-2.2x1.6"
 			(at 154.94 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -11712,7 +11712,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -11740,7 +11740,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pad-2.2x1.6:pad-2.2x1.6"
 			(at 20.32 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -11791,7 +11791,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -11819,7 +11819,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pad-2.2x1.6:pad-2.2x1.6"
 			(at 58.42 83.82 0)
 			(hide yes)
 			(show_name no)

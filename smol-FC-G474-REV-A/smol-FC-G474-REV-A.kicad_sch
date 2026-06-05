@@ -5,16 +5,46 @@
 	(uuid "650874a8-efa2-4da6-bfd2-a5dde0a9b2ac")
 	(paper "A4")
 	(title_block
-		(title "smol-FC-G474")
-		(date "2026-05-31")
-		(rev "0.7.0")
+		(title "smol-FC-G474-REV-A")
+		(date "2026-06-05")
+		(rev "0.9.3")
 		(company "Daniel Plewa")
 		(comment 1 "License: CERN-OHL-W v2")
 		(comment 2 "GitHub: https://github.com/Def12345678/smol-FC-G474-REV-A")
-		(comment 3 "BEC 5A/2A, 10V/2A | Baro, OSD Chip and 16MB blackbox")
+		(comment 3 "BEC 5A/3A, 10V/3A | Baro, OSD Chip and 16MB blackbox")
 		(comment 4 "Open source flight controller on STM32G4, 20x20 3.5mm hole")
 	)
 	(lib_symbols)
+	(text "Dodaj lub nie, rezystory na kazdej linii UART i Dshot itd, ESD itd"
+		(exclude_from_sim no)
+		(at 133.35 155.956 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "01dd739e-07c1-4a2b-8e7a-49bc54eebb98")
+	)
+	(text "Power MUX"
+		(exclude_from_sim no)
+		(at 106.934 159.766 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "742c400e-3777-465d-97e4-916e8c22a9b6")
+	)
+	(text "Star ground?"
+		(exclude_from_sim no)
+		(at 109.22 169.672 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d778ff67-0ec7-48c0-ae53-b5ab2c7434a2")
+	)
 	(text "SPI 1 = AT7456E/OSD\nSPI 2 = IMU\nSPI 3 = Blackbox\nI2C 4 = Barometer"
 		(exclude_from_sim no)
 		(at 136.398 24.892 0)

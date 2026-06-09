@@ -11,7 +11,7 @@
 		(company "Daniel Plewa")
 		(comment 1 "License: CERN-OHL-W v2")
 		(comment 2 "GitHub: https://github.com/Def12345678/smol-FC-G474-REV-A")
-		(comment 3 "BEC 5A/3A, 10V/3A | Baro, OSD Chip and 16MB blackbox")
+		(comment 3 "BEC 5A/3A, 9V/3A | Baro, OSD Chip and 16MB blackbox")
 		(comment 4 "Open source flight controller on STM32G4, 20x20 3.5mm hole")
 	)
 	(lib_symbols
@@ -796,27 +796,29 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 12.7 0)
+			(property "Reference" "J2"
+				(at -0.762 12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "Conn_01x10"
-				(at 0 -15.24 0)
+			(property "Value" "ESC"
+				(at -1.27 -15.494 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Connector_JST:JST_SH_SM10B-SRSS-TB_1x10-1MP_P1.00mm_Horizontal"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -993,7 +995,7 @@
 						(type none)
 					)
 				)
-				(pin passive line
+				(pin power_out line
 					(at -5.08 10.16 0)
 					(length 3.81)
 					(name "Pin_1"
@@ -1011,7 +1013,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_out line
 					(at -5.08 7.62 0)
 					(length 3.81)
 					(name "Pin_2"
@@ -1029,7 +1031,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_out line
 					(at -5.08 5.08 0)
 					(length 3.81)
 					(name "Pin_3"
@@ -1047,7 +1049,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_out line
 					(at -5.08 2.54 0)
 					(length 3.81)
 					(name "Pin_4"
@@ -1502,7 +1504,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm"
+			(property "Footprint" "TVS3300DRVR:DRV6_1X1P6_TEX"
 				(at -2.032 39.878 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1703,10 +1705,10 @@
 					(end 20.32 -7.62)
 					(stroke
 						(width 0)
-						(type default)
+						(type solid)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 			)

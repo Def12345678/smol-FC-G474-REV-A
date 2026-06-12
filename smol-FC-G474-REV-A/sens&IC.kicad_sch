@@ -11,8 +11,8 @@
 		(company "Daniel Plewa")
 		(comment 1 "License: CERN-OHL-W v2")
 		(comment 2 "GitHub: https://github.com/Def12345678/smol-FC-G474-REV-A")
-		(comment 3 "BEC 5A/3A, 9V/3A | Baro, OSD Chip and 16MB blackbox")
-		(comment 4 "Open source flight controller on STM32G4, 20x20 3.5mm hole")
+		(comment 3 "BEC 5A/2A, 9V/3A | Baro, OSD Chip and 16MB blackbox")
+		(comment 4 "Open source flight controller on STM32G4, 20x20 3mm hole")
 	)
 	(lib_symbols
 		(symbol "+5V_1"
@@ -3232,12 +3232,6 @@
 		(uuid "b476f9c0-bd3e-4fe9-a170-d3b184ae1c43")
 	)
 	(junction
-		(at 80.01 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c8fcca45-0c34-42d7-9c95-3a155d09ec42")
-	)
-	(junction
 		(at 41.91 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3300,6 +3294,10 @@
 	(no_connect
 		(at 99.06 58.42)
 		(uuid "3726d0b0-8672-4694-9fd5-9ac68f8a8bba")
+	)
+	(no_connect
+		(at 80.01 97.79)
+		(uuid "4f8bc9b3-44b7-4311-98be-355b553851a3")
 	)
 	(no_connect
 		(at 63.5 78.74)
@@ -3548,16 +3546,6 @@
 			(type default)
 		)
 		(uuid "1fdf8808-c265-4b71-9443-a3d1eb64a3a3")
-	)
-	(wire
-		(pts
-			(xy 82.55 102.87) (xy 80.01 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "280711b1-05b1-48a7-a12e-e0065d43e65b")
 	)
 	(wire
 		(pts
@@ -3938,16 +3926,6 @@
 			(type default)
 		)
 		(uuid "765cd593-bf68-4aa4-9bc7-d2257da55f9d")
-	)
-	(wire
-		(pts
-			(xy 80.01 97.79) (xy 80.01 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76744f55-7ba3-46fb-a7dd-e074bb047e8d")
 	)
 	(wire
 		(pts
@@ -4441,7 +4419,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 102.87) (xy 77.47 102.87)
+			(xy 77.47 102.87) (xy 82.55 102.87)
 		)
 		(stroke
 			(width 0)
@@ -4957,7 +4935,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0662722b-2b21-44c1-9c00-86fd1ff860b5")
-		(property "Reference" "C16"
+		(property "Reference" "C15"
 			(at 58.928 28.194 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5021,7 +4999,7 @@
 		(instances
 			(project "smol-FC-G474-REV-A"
 				(path "/650874a8-efa2-4da6-bfd2-a5dde0a9b2ac/c6a9e88e-4750-4739-9bd4-754778ae0745"
-					(reference "C16")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -5038,7 +5016,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "07b3350e-6a0a-4ef7-9d19-e91924649186")
-		(property "Reference" "C27"
+		(property "Reference" "C26"
 			(at 43.688 139.954 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5102,7 +5080,7 @@
 		(instances
 			(project "smol-FC-G474-REV-A"
 				(path "/650874a8-efa2-4da6-bfd2-a5dde0a9b2ac/c6a9e88e-4750-4739-9bd4-754778ae0745"
-					(reference "C27")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -5119,7 +5097,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1d762fb3-5fb4-4005-bca0-add380bf7f7d")
-		(property "Reference" "C25"
+		(property "Reference" "C19"
 			(at 251.968 28.194 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5183,7 +5161,7 @@
 		(instances
 			(project "smol-FC-G474-REV-A"
 				(path "/650874a8-efa2-4da6-bfd2-a5dde0a9b2ac/c6a9e88e-4750-4739-9bd4-754778ae0745"
-					(reference "C25")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -5200,7 +5178,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "218e8a7f-6d90-4708-93a8-b357cf0d1171")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR040"
 			(at 41.91 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -5260,7 +5238,7 @@
 		(instances
 			(project "smol-FC-G474-REV-A"
 				(path "/650874a8-efa2-4da6-bfd2-a5dde0a9b2ac/c6a9e88e-4750-4739-9bd4-754778ae0745"
-					(reference "#PWR033")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -5277,7 +5255,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "23ec4897-5382-4106-9c94-8f07ff9dd821")
-		(property "Reference" "U5"
+		(property "Reference" "U6"
 			(at 78.994 147.574 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5479,7 +5457,7 @@
 		(instances
 			(project "smol-FC-G474-REV-A"
 				(path "/650874a8-efa2-4da6-bfd2-a5dde0a9b2ac/c6a9e88e-4750-4739-9bd4-754778ae0745"
-					(reference "U5")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -5496,7 +5474,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3008cc3b-066f-440e-ae5c-07e921a0d19b")
-		(property "Reference" "C17"
+		(property "Reference" "C14"
 			(at 48.768 28.194 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5560,7 +5538,7 @@
 		(instances
 			(project "smol-FC-G474-REV-A"
 				(path "/650874a8-efa2-4da6-bfd2-a5dde0a9b2ac/c6a9e88e-4750-4739-9bd4-754778ae0745"
-					(reference "C17")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -5578,7 +5556,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "309b534e-5747-462a-93af-bd494f367a5f")
-		(property "Reference" "U6"
+		(property "Reference" "U5"
 			(at 254.254 113.284 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5792,7 +5770,7 @@
 		(instances
 			(project "smol-FC-G474-REV-A"
 				(path "/650874a8-efa2-4da6-bfd2-a5dde0a9b2ac/c6a9e88e-4750-4739-9bd4-754778ae0745"
-					(reference "U6")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -5810,7 +5788,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "363cc9bc-9b05-4e38-a570-5261e7fc83c8")
-		(property "Reference" "U4"
+		(property "Reference" "U3"
 			(at 241.554 37.084 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6042,7 +6020,7 @@
 		(instances
 			(project "smol-FC-G474-REV-A"
 				(path "/650874a8-efa2-4da6-bfd2-a5dde0a9b2ac/c6a9e88e-4750-4739-9bd4-754778ae0745"
-					(reference "U4")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -6059,7 +6037,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "39dd55ef-45ff-4925-b3e5-af312375cad7")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR030"
 			(at 46.99 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -6119,7 +6097,7 @@
 		(instances
 			(project "smol-FC-G474-REV-A"
 				(path "/650874a8-efa2-4da6-bfd2-a5dde0a9b2ac/c6a9e88e-4750-4739-9bd4-754778ae0745"
-					(reference "#PWR025")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -6136,7 +6114,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "410d851b-7ab2-477b-a16b-7e8d5ea063e8")
-		(property "Reference" "C15"
+		(property "Reference" "C16"
 			(at 69.088 28.194 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6200,7 +6178,7 @@
 		(instances
 			(project "smol-FC-G474-REV-A"
 				(path "/650874a8-efa2-4da6-bfd2-a5dde0a9b2ac/c6a9e88e-4750-4739-9bd4-754778ae0745"
-					(reference "C15")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -6217,7 +6195,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "417646f1-d557-4734-a10c-17738ef0da82")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR032"
 			(at 29.21 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -6277,7 +6255,7 @@
 		(instances
 			(project "smol-FC-G474-REV-A"
 				(path "/650874a8-efa2-4da6-bfd2-a5dde0a9b2ac/c6a9e88e-4750-4739-9bd4-754778ae0745"
-					(reference "#PWR026")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -6294,7 +6272,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "42cf5ada-1561-4a67-9d3c-d5dacd54bea2")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR029"
 			(at 200.66 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -6354,7 +6332,7 @@
 		(instances
 			(project "smol-FC-G474-REV-A"
 				(path "/650874a8-efa2-4da6-bfd2-a5dde0a9b2ac/c6a9e88e-4750-4739-9bd4-754778ae0745"
-					(reference "#PWR031")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -6371,7 +6349,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "50ba3a64-10ea-459a-b547-c352938b6a11")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR043"
 			(at 242.57 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -6431,7 +6409,7 @@
 		(instances
 			(project "smol-FC-G474-REV-A"
 				(path "/650874a8-efa2-4da6-bfd2-a5dde0a9b2ac/c6a9e88e-4750-4739-9bd4-754778ae0745"
-					(reference "#PWR036")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -6448,7 +6426,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6cb8825f-1982-4546-aa8d-a3272b7e66fd")
-		(property "Reference" "C20"
+		(property "Reference" "C24"
 			(at 53.848 96.774 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6512,7 +6490,7 @@
 		(instances
 			(project "smol-FC-G474-REV-A"
 				(path "/650874a8-efa2-4da6-bfd2-a5dde0a9b2ac/c6a9e88e-4750-4739-9bd4-754778ae0745"
-					(reference "C20")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -6529,7 +6507,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6cc30309-1f0f-4978-9a49-4abbff4f618d")
-		(property "Reference" "C18"
+		(property "Reference" "C20"
 			(at 37.338 50.8 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6593,7 +6571,7 @@
 		(instances
 			(project "smol-FC-G474-REV-A"
 				(path "/650874a8-efa2-4da6-bfd2-a5dde0a9b2ac/c6a9e88e-4750-4739-9bd4-754778ae0745"
-					(reference "C18")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -6610,7 +6588,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6cc51477-e920-4e76-99b2-ed87da54a6ff")
-		(property "Reference" "C23"
+		(property "Reference" "C17"
 			(at 202.438 28.194 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6621,7 +6599,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2u2"
+		(property "Value" "2.2u"
 			(at 202.438 29.972 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6674,7 +6652,7 @@
 		(instances
 			(project "smol-FC-G474-REV-A"
 				(path "/650874a8-efa2-4da6-bfd2-a5dde0a9b2ac/c6a9e88e-4750-4739-9bd4-754778ae0745"
-					(reference "C23")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -6691,7 +6669,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6e910d08-6a27-41cb-a970-3b3ddff6c660")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR036"
 			(at 34.29 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -6751,7 +6729,7 @@
 		(instances
 			(project "smol-FC-G474-REV-A"
 				(path "/650874a8-efa2-4da6-bfd2-a5dde0a9b2ac/c6a9e88e-4750-4739-9bd4-754778ae0745"
-					(reference "#PWR027")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -6768,7 +6746,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6f621ccb-96cb-46d9-aa6b-2b9ae1dd5746")
-		(property "Reference" "U3"
+		(property "Reference" "U4"
 			(at 92.964 45.974 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6973,7 +6951,7 @@
 		(instances
 			(project "smol-FC-G474-REV-A"
 				(path "/650874a8-efa2-4da6-bfd2-a5dde0a9b2ac/c6a9e88e-4750-4739-9bd4-754778ae0745"
-					(reference "U3")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -7067,7 +7045,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "79381186-4dbb-4298-bbff-20ccd3c4c223")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR035"
 			(at 265.43 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -7127,7 +7105,7 @@
 		(instances
 			(project "smol-FC-G474-REV-A"
 				(path "/650874a8-efa2-4da6-bfd2-a5dde0a9b2ac/c6a9e88e-4750-4739-9bd4-754778ae0745"
-					(reference "#PWR040")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -7144,7 +7122,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7c174a3a-c500-4dea-aab4-14404a68e4d6")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR044"
 			(at 68.58 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -7204,7 +7182,7 @@
 		(instances
 			(project "smol-FC-G474-REV-A"
 				(path "/650874a8-efa2-4da6-bfd2-a5dde0a9b2ac/c6a9e88e-4750-4739-9bd4-754778ae0745"
-					(reference "#PWR034")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -7221,7 +7199,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7db967c9-249c-4eed-a22a-5a4e84678bab")
-		(property "Reference" "#PWR095"
+		(property "Reference" "#PWR031"
 			(at 207.01 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -7281,7 +7259,7 @@
 		(instances
 			(project "smol-FC-G474-REV-A"
 				(path "/650874a8-efa2-4da6-bfd2-a5dde0a9b2ac/c6a9e88e-4750-4739-9bd4-754778ae0745"
-					(reference "#PWR095")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -7298,7 +7276,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7dec025e-6cbe-49d0-b809-1bd2be52de48")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR038"
 			(at 226.06 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -7358,7 +7336,7 @@
 		(instances
 			(project "smol-FC-G474-REV-A"
 				(path "/650874a8-efa2-4da6-bfd2-a5dde0a9b2ac/c6a9e88e-4750-4739-9bd4-754778ae0745"
-					(reference "#PWR037")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -7453,7 +7431,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "81809aa4-ea51-438d-b0b8-31063dc6de76")
-		(property "Reference" "R15"
+		(property "Reference" "R14"
 			(at 92.456 143.764 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7464,7 +7442,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7K"
+		(property "Value" "4.7k"
 			(at 92.456 145.542 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7517,7 +7495,7 @@
 		(instances
 			(project "smol-FC-G474-REV-A"
 				(path "/650874a8-efa2-4da6-bfd2-a5dde0a9b2ac/c6a9e88e-4750-4739-9bd4-754778ae0745"
-					(reference "R15")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -7534,7 +7512,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8712689b-de21-4ec9-b239-a7bb5c20e9cc")
-		(property "Reference" "#PWR094"
+		(property "Reference" "#PWR025"
 			(at 105.41 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -7594,7 +7572,7 @@
 		(instances
 			(project "smol-FC-G474-REV-A"
 				(path "/650874a8-efa2-4da6-bfd2-a5dde0a9b2ac/c6a9e88e-4750-4739-9bd4-754778ae0745"
-					(reference "#PWR094")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -7611,7 +7589,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8f3c2be5-58f3-4522-8088-b8b1cc44a4be")
-		(property "Reference" "C26"
+		(property "Reference" "C27"
 			(at 53.848 139.954 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7675,7 +7653,7 @@
 		(instances
 			(project "smol-FC-G474-REV-A"
 				(path "/650874a8-efa2-4da6-bfd2-a5dde0a9b2ac/c6a9e88e-4750-4739-9bd4-754778ae0745"
-					(reference "C26")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -7692,7 +7670,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "92609bcc-bafb-4590-a0f4-978313f8156c")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR042"
 			(at 41.91 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -7752,7 +7730,7 @@
 		(instances
 			(project "smol-FC-G474-REV-A"
 				(path "/650874a8-efa2-4da6-bfd2-a5dde0a9b2ac/c6a9e88e-4750-4739-9bd4-754778ae0745"
-					(reference "#PWR032")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -7848,7 +7826,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "982273c7-99eb-49e5-a06f-d28e6987ac85")
-		(property "Reference" "#PWR096"
+		(property "Reference" "#PWR027"
 			(at 261.62 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -7908,7 +7886,7 @@
 		(instances
 			(project "smol-FC-G474-REV-A"
 				(path "/650874a8-efa2-4da6-bfd2-a5dde0a9b2ac/c6a9e88e-4750-4739-9bd4-754778ae0745"
-					(reference "#PWR096")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -7925,7 +7903,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9bcb34c8-6efe-4964-b15e-766c3af04884")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR033"
 			(at 226.06 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -7985,7 +7963,7 @@
 		(instances
 			(project "smol-FC-G474-REV-A"
 				(path "/650874a8-efa2-4da6-bfd2-a5dde0a9b2ac/c6a9e88e-4750-4739-9bd4-754778ae0745"
-					(reference "#PWR029")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -8002,7 +7980,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a9dc8b8b-3298-48f8-bf8c-eefa9b001597")
-		(property "Reference" "C19"
+		(property "Reference" "C23"
 			(at 28.702 96.774 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8066,7 +8044,7 @@
 		(instances
 			(project "smol-FC-G474-REV-A"
 				(path "/650874a8-efa2-4da6-bfd2-a5dde0a9b2ac/c6a9e88e-4750-4739-9bd4-754778ae0745"
-					(reference "C19")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -8190,7 +8168,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "aec286fc-46d3-4f7d-8625-40a8ed682e77")
-		(property "Reference" "R16"
+		(property "Reference" "R15"
 			(at 100.076 143.764 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8201,7 +8179,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7K"
+		(property "Value" "4.7k"
 			(at 100.076 145.542 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8254,7 +8232,7 @@
 		(instances
 			(project "smol-FC-G474-REV-A"
 				(path "/650874a8-efa2-4da6-bfd2-a5dde0a9b2ac/c6a9e88e-4750-4739-9bd4-754778ae0745"
-					(reference "R16")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -8271,7 +8249,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c95aa648-2d18-4974-881d-1c157a21b267")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR026"
 			(at 200.66 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -8331,7 +8309,7 @@
 		(instances
 			(project "smol-FC-G474-REV-A"
 				(path "/650874a8-efa2-4da6-bfd2-a5dde0a9b2ac/c6a9e88e-4750-4739-9bd4-754778ae0745"
-					(reference "#PWR030")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -8348,7 +8326,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d263c4f7-1867-4cb4-9b6f-d9bf10b0637f")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR037"
 			(at 77.47 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -8408,7 +8386,7 @@
 		(instances
 			(project "smol-FC-G474-REV-A"
 				(path "/650874a8-efa2-4da6-bfd2-a5dde0a9b2ac/c6a9e88e-4750-4739-9bd4-754778ae0745"
-					(reference "#PWR028")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -8425,7 +8403,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "d76140bf-740f-45d9-b206-7442217df12e")
-		(property "Reference" "R17"
+		(property "Reference" "R13"
 			(at 266.446 115.824 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8489,7 +8467,7 @@
 		(instances
 			(project "smol-FC-G474-REV-A"
 				(path "/650874a8-efa2-4da6-bfd2-a5dde0a9b2ac/c6a9e88e-4750-4739-9bd4-754778ae0745"
-					(reference "R17")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -8506,7 +8484,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d838de1a-05c0-4ae6-b47c-3cb3dca2c682")
-		(property "Reference" "C24"
+		(property "Reference" "C18"
 			(at 212.598 28.194 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8570,7 +8548,7 @@
 		(instances
 			(project "smol-FC-G474-REV-A"
 				(path "/650874a8-efa2-4da6-bfd2-a5dde0a9b2ac/c6a9e88e-4750-4739-9bd4-754778ae0745"
-					(reference "C24")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -8587,7 +8565,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e18d9a21-0130-464c-b895-7bac2988a8b4")
-		(property "Reference" "C28"
+		(property "Reference" "C25"
 			(at 227.838 106.934 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8651,7 +8629,7 @@
 		(instances
 			(project "smol-FC-G474-REV-A"
 				(path "/650874a8-efa2-4da6-bfd2-a5dde0a9b2ac/c6a9e88e-4750-4739-9bd4-754778ae0745"
-					(reference "C28")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -8668,7 +8646,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e5d83d56-c303-420a-bafc-4ad47a3c6c31")
-		(property "Reference" "R14"
+		(property "Reference" "R12"
 			(at 136.652 66.802 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8732,7 +8710,7 @@
 		(instances
 			(project "smol-FC-G474-REV-A"
 				(path "/650874a8-efa2-4da6-bfd2-a5dde0a9b2ac/c6a9e88e-4750-4739-9bd4-754778ae0745"
-					(reference "R14")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -8828,7 +8806,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e815279f-4f4b-44d5-8ab1-fdc9bcabad48")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR034"
 			(at 226.06 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -8888,7 +8866,7 @@
 		(instances
 			(project "smol-FC-G474-REV-A"
 				(path "/650874a8-efa2-4da6-bfd2-a5dde0a9b2ac/c6a9e88e-4750-4739-9bd4-754778ae0745"
-					(reference "#PWR038")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -8905,7 +8883,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ec4b5878-ad61-4378-887a-665c0daae907")
-		(property "Reference" "R13"
+		(property "Reference" "R11"
 			(at 24.384 58.928 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8969,7 +8947,7 @@
 		(instances
 			(project "smol-FC-G474-REV-A"
 				(path "/650874a8-efa2-4da6-bfd2-a5dde0a9b2ac/c6a9e88e-4750-4739-9bd4-754778ae0745"
-					(reference "R13")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -8986,7 +8964,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ed753b6c-b4c6-4a7c-8bdf-161737dda55d")
-		(property "Reference" "#PWR097"
+		(property "Reference" "#PWR028"
 			(at 250.19 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -9046,7 +9024,7 @@
 		(instances
 			(project "smol-FC-G474-REV-A"
 				(path "/650874a8-efa2-4da6-bfd2-a5dde0a9b2ac/c6a9e88e-4750-4739-9bd4-754778ae0745"
-					(reference "#PWR097")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -9063,7 +9041,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fcdf8273-16b3-4065-a995-f2133a556d47")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR041"
 			(at 91.44 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -9123,7 +9101,7 @@
 		(instances
 			(project "smol-FC-G474-REV-A"
 				(path "/650874a8-efa2-4da6-bfd2-a5dde0a9b2ac/c6a9e88e-4750-4739-9bd4-754778ae0745"
-					(reference "#PWR035")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)

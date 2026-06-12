@@ -11,8 +11,8 @@
 		(company "Daniel Plewa")
 		(comment 1 "License: CERN-OHL-W v2")
 		(comment 2 "GitHub: https://github.com/Def12345678/smol-FC-G474-REV-A")
-		(comment 3 "BEC 5A/3A, 9V/3A | Baro, OSD Chip and 16MB blackbox")
-		(comment 4 "Open source flight controller on STM32G4, 20x20 3.5mm hole")
+		(comment 3 "BEC 5A/2A, 9V/3A | Baro, OSD Chip and 16MB blackbox")
+		(comment 4 "Open source flight controller on STM32G4, 20x20 3mm hole")
 	)
 	(lib_symbols)
 	(text "SPI 1 = AT7456E/OSD\nSPI 2 = IMU\nSPI 3 = Blackbox\nI2C 4 = Barometer"

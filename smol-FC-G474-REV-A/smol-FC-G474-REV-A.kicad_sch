@@ -892,7 +892,7 @@
 				(justify left)
 			)
 		)
-		(pin "TX1" output
+		(pin "TX1" input
 			(at 217.17 85.09 180)
 			(uuid "114250e8-759e-4148-b13e-117471e93546")
 			(effects
@@ -902,7 +902,7 @@
 				(justify left)
 			)
 		)
-		(pin "RX1" input
+		(pin "RX1" output
 			(at 217.17 87.63 180)
 			(uuid "053d32f7-ad3d-4f2c-9e11-60e743ebb89d")
 			(effects
@@ -1032,7 +1032,7 @@
 				(justify left)
 			)
 		)
-		(pin "VIDEO_IN" input
+		(pin "VIDEO_IN" output
 			(at 217.17 130.81 180)
 			(uuid "cda21cc4-afc8-4759-abc0-13f234ba19b2")
 			(effects

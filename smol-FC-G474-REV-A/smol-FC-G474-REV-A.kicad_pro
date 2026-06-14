@@ -40,8 +40,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.375,
-          "width": 0.5
+          "height": 1.5,
+          "width": 1.2
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -932,7 +932,7 @@
         "uuid": "650874a8-efa2-4da6-bfd2-a5dde0a9b2ac"
       }
     ],
-    "used_designators": "3V3_CORE1,AUX1,TX1-4,USB1,VIDEO_OUT1,#PWR1-103,BZ+1,C1-43,5V1-8,9V1-2,BZ\\-1,CAM1,CC1,CURR1,D1-4,GND1-11,R1-27,I2C3_SCL1,I2C3_SDA1,J1,L1-2,LED1,M1-4,Q1,RX1-4,SW1,SWCLK1,SWDIO1,TEL1,U1-12,VBAT1,Y1-2",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

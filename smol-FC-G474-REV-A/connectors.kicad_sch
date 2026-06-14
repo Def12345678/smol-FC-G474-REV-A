@@ -3867,7 +3867,7 @@
 		)
 		(uuid "fbbc4a35-4e98-487c-8270-dc9ef8d6bac9")
 	)
-	(label "CC"
+	(label "CC_P"
 		(at 95.25 123.19 0)
 		(effects
 			(font
@@ -3909,7 +3909,7 @@
 		(uuid "06a631dd-7b65-435e-938f-ccda81104834")
 	)
 	(hierarchical_label "TX1"
-		(shape output)
+		(shape input)
 		(at 66.04 181.61 180)
 		(effects
 			(font
@@ -4019,7 +4019,7 @@
 		(uuid "a500d63f-5253-4803-8cee-12507562a4a4")
 	)
 	(hierarchical_label "VIDEO_IN"
-		(shape input)
+		(shape output)
 		(at 242.57 85.09 180)
 		(effects
 			(font
@@ -4096,7 +4096,7 @@
 		(uuid "d927ea90-b1ee-4fc9-8a5e-c319d52e57d5")
 	)
 	(hierarchical_label "RX1"
-		(shape input)
+		(shape output)
 		(at 66.04 179.07 180)
 		(effects
 			(font
